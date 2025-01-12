@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="assets/images/favicon.png" rel="icon" />
+<title>Karbon User Guide</title>
+<meta name="description" content="karbon documentation">
+<meta name="author" content="harnishdesign.net">
+
+<!-- Stylesheet
+============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Highlight Syntax -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Header
+  ============================ -->
+  <header id="header" class="sticky-top"> 
+    <!-- Navbar -->
+    <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+      <div class="container-fluid">
+        <!-- Sidebar Toggler -->
+		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+		
+	        <!-- Logo -->
+          <a class="logo ml-md-3" href="index.html" title="iDocs Template">
+            <img
+              src="assets/images/logo.png"
+              class="logo-custom"
+              alt="iDocs Template"
+            />
+          </a>
+          
+          <span class="ml-2 mr-auto text-2"><b style="font-size:20px">KARBON</b>
+            v2.0</span>
+          <!-- Logo End -->
+        
+		<!-- Navbar Toggler -->
+		<!-- <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button> -->
+        
+		<!-- <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li class="dropdown"> <a class="dropdown-toggle" href="#">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Dropdown Action</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html">Action</a></li>
+                    <li><a class="dropdown-item" href="feature-header-dark.html">Another Action</a></li>
+                    <li><a class="dropdown-item" href="feature-header-primary.html">Something Else Here</a></li>
+                    <li><a class="dropdown-item" href="index-2.html">Another Link</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Another Action</a>
+                <li><a class="dropdown-item" href="#">Something Else Here</a></li>
+              </ul>
+            </li>
+            <li><a target="_blank" href="https://themeforest.net/user/harnishdesign/portfolio?ref=HarnishDesign">Other Template</a></li>
+            <li><a target="_blank" href="https://themeforest.net/user/harnishdesign/#contact?ref=HarnishDesign">Support</a></li>
+          </ul>
+        </div>
+        <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+          <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+          <li class="social-icons-facebook"><a data-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="social-icons-dribbble"><a data-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+        </ul>
+      </div> -->
+    </nav>
+    <!-- Navbar End --> 
+  </header>
+  <!-- Header End --> 
+  
+  <!-- Content
+  ============================ -->
+  <div id="content" role="main">
+    
+	<!-- Sidebar Navigation
+	============================ -->
+	<div class="idocs-navigation bg-light">
+      <ul class="nav flex-column ">
+        <li class="nav-item"><a class="nav-link active" href="#idocs_start">Introduction</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_installation">1.1.Purpose</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_html_structure">1.2.What is Trading</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_sass">1.3.What is a Candlestick</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_color_schemes">1.4.What is a Candle Indicator</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_theme_customization">1.5.How to Use Indicator</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_logo_settings">1.6.How does Trading Work</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_layout">User Types & Sign Up</a>
+          <ul class="nav flex-column">
+			<li class="nav-item"><a class="nav-link" href="#idocs_header">User Type</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_navbar">Sign Up</a></li>
+			<!-- <li class="nav-item"><a class="nav-link" href="#idocs_sidebar">Sidebar</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_footer">Footer</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_box_layout">Box Layout</a></li> -->
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_content">Home</a>
+			    <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_typography">Welcome Message & Links</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_code">Color Theme Changing</a></li>
+          </ul>
+		    </li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_components">Create Bybit Accounts</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_accordion">Create ByBit New Account</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_tabs">How To enable 2FA authentication.</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_social_icon">How to Create Sub Account on bybit</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_helper_classes">Create Your API Key on Bybit Subaccount</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_Funding">How to Add funds to sub account</a></li>
+          
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="#Bitgetidocs_components">Create Bitget Accounts</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#Bitgetidocs_accordion">Create Bitget New Account</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Bitgetidocs_tabs">How to Create API Key on Bitget</a></li>
+            
+          
+          </ul>
+        </li>
+
+       
+		<li class="nav-item"><a class="nav-link" href="#idocs_faq">Connect Accounts to Karbon</a>
+    </li>
+
+    <li class="nav-item"><a class="nav-link" href="#DX_Dashboard">KarbonDX Dashboard </a>
+      <ul class="nav flex-column">
+        <li class="nav-item"><a class="nav-link" href="#DX_Dashboard_open_trades">Opened Trade Data Table</a></li>
+        <li class="nav-item"><a class="nav-link" href="#DX_Dashboard_bybit_trades">Opened trades In trading platform</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Market_Widget">Market Widget</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Tradestab">Trades Tabs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Logtab">Logs Tab</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Notes">Notes Tab</a></li>
+      
+      </ul>
+    </li>
+
+    <li class="nav-item"><a class="nav-link" href="#DX_Config">Configurations </a>
+      <ul class="nav flex-column">
+        <li class="nav-item"><a class="nav-link" href="#DX_TradeSizeSetup">Trade Size setup</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Close_your_trade">How Do You Want to Close Your Trade</a></li>
+        <li class="nav-item"><a class="nav-link" href="#DX_TradeOpenSize">Trade Size</a></li>
+        <li class="nav-item"><a class="nav-link" href="#DX_MaxTrades">Max No Of Trades</a></li>
+        <li class="nav-item"><a class="nav-link" href="#DX_Leverage">Leverage And Leverage Type</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Minimum_Profit_Target">Minimum Profit Target</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Enable_Trade_Hedging">Enable Trade Hedging</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Trading_View_Trades">Create Stages for Trading View Trades</a></li>
+      
+      </ul>
+    </li>
+    <li class="nav-item"><a class="nav-link" href="#MM_Config">Advance Money Management Settings </a>
+      <ul class="nav flex-column">
+        <li class="nav-item"><a class="nav-link" href="#MM_modes">Classic and Split Mode(with positive)</a></li>
+        <li class="nav-item"><a class="nav-link" href="#MM_trade_close">Close Trade</a></li>
+        <li class="nav-item"><a class="nav-link" href="#MM_leverage_change">Change Leverage</a></li>
+        <li class="nav-item"><a class="nav-link" href="#MM_Lverage_Type_change">Change Leverage Type</a></li>
+        <li class="nav-item"><a class="nav-link" href="#MM_Reperchase">Repurchase</a></li>
+        <li class="nav-item"><a class="nav-link" href="#MM_Reset_Swing">Reset after Swing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#MM_Wallet_Cycles_at">End cycle at % gain</a></li>
+        <li class="nav-item"><a class="nav-link" href="#MM_PnL_Cycle">Hedge trade PnL cycle count</a></li>
+        <li class="nav-item"><a class="nav-link" href="#MM_Hedge_all_close">Close all hedge positions</a></li>
+
+      </ul>
+    </li>
+    <li class="nav-item"><a class="nav-link" href="#MM_Errors">Common Errors </a>
+      <ul class="nav flex-column">
+        <li class="nav-item"><a class="nav-link" href="#MM_Errors_Tracking_Disabled">Tracking Disable error list.</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Tich_size">Tick size error.</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Base_Price_Error">Base Price Error.</a></li>
+        <!-- <li class="nav-item"><a class="nav-link" href="#MM_Errors_4">Tracking Disable error list.</a></li>  -->
+      </ul>
+    </div>
+    
+    <!-- Docs Content
+	============================ -->
+    <div class="idocs-content">
+      <div class="container"> 
+       
+        
+        <section id="idocs_start">
+          <h1>Introduction</h1>
+          <!-- <h2>Your ThemeForest Item Name Here</h2>
+          <p class="lead">
+            Thank you so much for purchasing our item from themeforest.
+          </p>
+          <hr />
+          <div class="row">
+            <div class="col-sm-6 col-lg-4">
+              <ul class="list-unstyled">
+                <li><strong>Version:</strong> 1.0</li>
+                <li>
+                  <strong>Author:</strong>
+                  <a href="http://www.harnishdesign.net" target="_blank"
+                    >Harnish Design</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <ul class="list-unstyled">
+                <li>
+                  <strong class="font-weight-700">Created:</strong> 8 April,
+                  2020
+                </li>
+                <li><strong>Update:</strong> 12 May, 2020</li>
+              </ul>
+            </div>
+          </div>
+          <p class="alert alert-info">
+            If you have any questions that are beyond the scope of this help
+            file, Please feel free to email via
+            <a
+              target="_blank"
+              href="https://themeforest.net/user/harnishdesign/#contact?ref=HarnishDesign"
+              >Item Support Page</a
+            >.
+          </p> -->
+        </section>
+
+        
+		<hr class="divider">
+		
+        <!-- Installation
+		============================ -->
+        <section id="idocs_installation">
+          <h3>1.1.Purpose</h3>
+          <p>
+            This platform facilitates effortless trading by allowing users
+            to establish personalized settings, thereby enabling trades to
+            be executed automatically and requiring minimal human
+            intervention. This platform could potentially assist in closing
+            trades automatically when they reach a profitable point. This
+            streamlined approach ensures a user-friendly experience that
+            stands out from traditional trading platforms
+          </p>    
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- HTML Structure
+		============================ -->
+        <section id="idocs_html_structure">
+          <h3>1.2.What is Trading</h3>
+          <p>
+            Trading is the buying and selling of financial instruments in
+            order to make a profit. These instruments range from a variety
+            of assets assigned a financial value that can go up or down.
+            Trading involves vigorous participation in the financial markets
+            compared to investing, which works on a buy-and-hold strategy.
+            The success of trading is dependent on the ability of a trader
+            to be profitable over a period of time.
+          </p>
+          <p>
+            A trader is a person who gets involved in buying and selling a
+            financial asset in any financial market. He or she can buy or
+            sell either for himself/herself or on behalf of another
+            individual or institution. The main difference between an
+            investor and a trader is the duration for which he or she holds
+            on to the asset.
+          </p>
+          <p>
+            A trader is a person who engages in the short-term purchasing
+            and selling of equity either for an institution or for
+            themselves.
+          </p>        </section>
+        
+		<hr class="divider">
+		        
+		<!-- Sass
+		============================ -->
+        <section id="idocs_sass">
+          <h3>1.3.What is a Candlestick</h3>
+          <p>
+            A candle stick is a type of price chart used in technical
+            analysis that displays the high, low, open, and closing prices
+            of a security for a specific period.
+          </p>
+          <p>
+            wherein each candlestick details a single day’s trading. It has
+            three essential features:
+          </p>
+
+          <ul>
+            <li>The body, which represents the open-to-close range</li>
+            <li>
+              The wick, or shadow, that indicates the intra-day high and low
+            </li>
+            <li>
+              The color, which reveals the direction of market movement – a
+              green (or white) body indicates a price increase, while a red
+              (or black) body shows a price decrease
+            </li>
+          </ul>
+
+          <p id="">
+            Over time, individual candlesticks form patterns that traders
+            can use to recognize major support and resistance levels. There
+            are a great many candlestick patterns that indicate an
+            opportunity within a market – some provide insight into the
+            balance between buying and selling pressures, while others
+            identify continuation patterns or market indecision.
+            CandlePatternsAll strategy calculates all candlestick pattern
+            indicators that are available on the platform. Essentially, the
+            strategy differs from the CandlePatternsMultiple strategy only
+            by calculated indicator count and by the way the list of
+            indicators gets compiled.
+          </p>
+
+          <p>
+            This real body represents the price range between the open and
+            close of that day's trading. When the real body is filled in or
+            black (also red), it means the close was lower than the open. If
+            the real body is white (or green), the close was higher than the
+            open.
+          </p>
+
+          <img
+            src="assets/images/doc-images/1-3-candlestick.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+          />        </section>
+        
+		<hr class="divider">
+		
+		<!-- Color Schemes
+		============================ -->
+        <section id="idocs_color_schemes">
+          <h3>1.4.What is a Candle Indicator</h3>
+
+          <p>
+            This indicator paints each candle green, red, or blue depending
+            on whether the buy/sell pressure for that candle is bullish,
+            bearish, or neutral.
+          </p>
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- Customization
+		============================ -->
+        <section id="idocs_theme_customization">
+          <h3>1.5.How to Use Indicator</h3>
+
+          <p>
+            When the directional movement index indicator shows more buying
+            pressure than selling pressure, the candle will appear lime
+            green. This indicates bullish buying pressure. When the
+            directional movement index indicator shows more selling pressure
+            than buying pressure, the candle will appear red. This indicates
+            bearish selling pressure. When the directional movement index
+            indicator shows the same amount of buy and sell pressure, the
+            candle will appear blue. This indicates neutral buy/sell
+            pressure. 8 Use the color changes to see if there is more buying
+            or selling to pinpoint reversals and understand current market
+            buying. Wait to enter or exit positions until the candles turn
+            the opposite color.
+          </p>
+
+          <img
+            src="assets/images/doc-images/1-5-chart.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+          />
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- Logo Settings
+		============================ -->
+        <section id="idocs_logo_settings">
+          <h3>1.6.How does Trading Work</h3>
+
+              <p>
+                When trading, the user profit if the market price moves in the
+                same direction as the user’s speculation; however, if it takes
+                the opposite direction, the user incur a loss. It’s important to
+                note that trading is inherently risky and could lose more than
+                expected if don’t take the appropriate risk management steps.
+                Trading happens between two parties and often involves a dealer
+                network. No central, physical location only a virtual network of
+                participants. Timings 24/7. Contracts are Customized.
+                Counterparty risk, assets can be more volatile, and can be
+                traded on leverage, which means there’s a risk of losing more
+                than the deposit
+              </p>
+        </section>
+		
+        
+		<hr class="divider">
+		
+		<!-- Layout
+		============================ -->
+        <section id="idocs_layout">
+          <h2>User Types And Sign Up</h2>
+          <p class="lead mb-5">Documentation about user Types and Sign Up to the Karbon</p>
+        </section>
+		
+		
+        <!-- Header
+		============================ -->
+        <section id="idocs_header">
+         <table>
+            <tr>
+              <th>User Type</th>
+              <th>description</th>
+            </tr>
+            <tr>
+              <td>Default User</td>
+              <td>Default user is created After the signing up process</td>
+            </tr>
+            <tr>
+              <td>Admin User</td>
+              <td>Responsible for implementing and maintaining security services, such
+                as adding users, building profiles, or managing general site
+                administration
+                </td>
+            </tr>
+            <tr>
+              <td>Lab User</td>
+              <td>This is another existing user type. able to add strategies to the system
+                </td>
+            </tr>
+            <tr>
+              <td>Elite User</td>
+              <td>Auto execution subscribe and account balance 1000USDT</td>
+            </tr>
+            <tr>
+              <td>Pro User</td>
+              <td>Not defined yet</td>
+            </tr>
+            <tr>
+              <td>Pro + User</td>
+              <td>Not defined yet</td>
+            </tr>
+                
+         </table>
+         <br>
+         <img
+            src="assets/images/doc-images/UserTypes.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+          />
+        </section>
+
+		<hr class="divider">
+		
+		<!-- Navbar
+		============================ -->
+        <section id="idocs_navbar">
+          <h2>Sign Up</h2>
+		  <p class="lead">To use this platform user needs to create an account by simply providing their Name, Email,
+        and password</p>
+        <img
+            src="assets/images/doc-images/SighUp.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+          />
+		 
+          <p>After creating an account on Karbon, users are able to connect their online exchanges with
+            their new Karbon account. Before connecting exchanges, the user needs to create an
+            account on the exchange platform. exchange platforms are bitget and bybit
+            Bybit and Bitget are online exchanges where users can trade cryptocurrencies
+            we are planing to add binance exchange near future</p>
+            <img
+            src="assets/images/doc-images/Exchangers .png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+          />
+        </section>
+		
+		<hr class="divider">
+		
+
+		
+		<!-- Home
+		============================ -->
+        <section id="idocs_content">
+          <h2>Home</h2>
+          <p class="lead mb-5">Brief introduction to Karbon UI </p>
+        </section>
+		  
+		<!-- Welcome Message & Links
+		============================ -->
+		<section id="idocs_typography">
+		  <h2>Welcome Message & Links</h2>
+      <img
+      src="assets/images/doc-images/HomePage.png"
+      class="img-fluid mt-4 mb-3"
+      alt="Responsive image"
+      />
+      <img
+      src="assets/images/doc-images/HomePage2.png"
+      class="img-fluid mt-4 mb-3"
+      alt="Responsive image"
+      />
+  
+		</section>
+		
+		<hr class="divider">
+		
+		<!-- Color Theme Changing
+		============================ -->
+		<section id="idocs_code">
+		  <h2>Color Theme Changing</h2>
+		  <p class="text-4">Site theme can be changed according to the user’s desire. Blue and Green colors are
+        available.</p>
+      <img
+      src="assets/images/doc-images/ColorChange.png"
+      class="img-fluid mt-4 mb-3"
+      alt="Responsive image"
+      />
+      
+		</section>
+		
+		<hr class="divider">
+		
+		  
+		
+        <!-- Components
+		============================ -->
+        <section id="idocs_components">
+          <h2>Live/Paper Accounts</h2>
+          <img
+          src="assets/images/doc-images/LivePaperAcc.png"
+          class="img-fluid mt-4 mb-3"
+          alt="Responsive image"
+          />
+      
+        </section>
+		  
+		  <!-- BybitAcconts Components
+		  ============================ -->
+		  <section id="idocs_accordion">
+            <h2>Create ByBit New Account</h2>
+			<p> click <a href="https://www.bybit.com/en/">here</a> to open bybit</p>
+          <p>There are two ways to create a Bybit account:
+          <li>Sign up by email</li>
+          <li>Sign up by phone number</li>
+          <br>Click Sign in on the top right corner of the Bybit homepage. Then click Sign up. You can choose to sign up by email or phone number. Fill in the required information and click Sign up. You will receive a verification code in your email or phone number. Enter the verification code to complete the sign-up process.</p>
+          </p>
+          <img
+          src="assets/images/doc-images/SighUpBybit.png"
+          class="img-fluid mt-4 mb-3"
+          alt="Responsive image"
+          />
+          <p>Make sure you have understood and agreed to the terms and privacy policy, and after
+            checking that the information entered is correct, click on Create Account on your desktop or
+            Continue on your mobile.</p>
+          </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- How To enable 2FA authentication.
+		  ============================ -->
+		  <section id="idocs_tabs">
+            <h2>How To enable 2FA authentication</h2>
+            <p>Click your Bybit Profile icon and go to account and security page</p>  
+            <img
+            src="assets/images/doc-images/2fa1.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+            />
+		    	<p>In account and security scroll down the page to advance protection.</p>
+		    	<p>Click settings related to google two factor authentication.</p>
+          <img
+          src="assets/images/doc-images/2fa2.png"
+          class="img-fluid mt-4 mb-3"
+          alt="Responsive image"
+          />
+          <p>Check your email to verification code and enter that code to security
+            verification.</p>
+            <p>downloads google authentication app and scan the QR code given in the
+              popup window and enter the authentication code in given field in the popup
+              window.
+              </p>
+              <p>Click confirm to finish the setup</p> 
+              <img
+              src="assets/images/doc-images/finish.png"
+               class="img-fluid mt-4 mb-3"
+                alt="Responsive image"
+             />
+          </section>
+          
+		  <hr class="divider">
+		  		  
+          <!-- How to Create Sub Account on bybit
+		  ============================ -->
+		  <section id="idocs_social_icon">
+            <h3>How to Create Sub Account on bybit</h3>
+            <p>Go to user setting by clicking profile icon in bybit.</p>
+            <p>Click subaccounts tab</p>
+            <p>Click Create subaccount button.</p>
+            <img
+              src="assets/images/doc-images/subacc1.png"
+               class="img-fluid mt-4 mb-3"
+                alt="Responsive image"
+             />
+             <p>Click standard subaccount.</p>
+             <img
+             src="assets/images/doc-images/subacc2.png"
+              class="img-fluid mt-4 mb-3"
+               alt="Responsive image"
+            />
+            <p>Enter any name without space and select account type to standard</p>
+            <img
+            src="assets/images/doc-images/subacc3.png"
+             class="img-fluid mt-4 mb-3"
+              alt="Responsive image"
+            />
+           <p>Click confirm to finish the setup.</p>
+            
+          </section>
+		  
+		  <hr class="divider">
+		  
+		  <!-- Create Your API Key on Bybit Subaccount
+		  ============================ -->
+          <section id="idocs_helper_classes">
+            <h3>Create Your API Key on Bybit Subaccount</h3>
+            <p>enter your account's settings page. Perform a login if prompted. Alternatively, you
+              can click the human icon on the top right corner of your trading page, go to “Subaccounts”
+              then click “Management “in created sub account </p>
+              <img
+              src="assets/images/doc-images/APIImg1.png"
+               class="img-fluid mt-4 mb-3"
+                alt="Responsive image"
+              />
+              <p>Click on 'Create New Key' located on the right side of the 'API Management' page</p>
+             
+            <p>Click system-generated API keys.</p>
+            <img
+            src="assets/images/doc-images/ApiImg3.png"
+             class="img-fluid mt-4 mb-3"
+              alt="Responsive image"
+            />
+            
+            <p>The following pop-out window will appear. Please configure your API key according
+              to your trading needs.</p>
+              <img
+            src="assets/images/doc-images/ApiImg2.png"
+             class="img-fluid mt-4 mb-3"
+              alt="Responsive image"
+            />
+            <p> Enter 2FA code and confirm. You have successfully created your API key!</p>
+            <h4>“Users can add the IP address that was provided by the Karbon team to the API creation process to
+              prevent other unauthorized IP addresses.”</h4>
+
+			    </section>
+        
+        
+		<hr class="divider">
+		
+     <!-- How to Add funds to sub account
+		  ============================ -->
+      <section id="idocs_Funding">
+        <h3>How to Add funds to sub account</h3>
+        <li>Go to assets using navigation bar.</li>
+        <li>In asset overview Click Transfer button</li>
+        <img
+            src="assets/images/doc-images/fun1.png"
+             class="img-fluid mt-4 mb-3"
+              alt="Responsive image"
+            />
+        <li>After clicking transfer you can see a popup window named transfer.</li>
+        <li>Select across sub account(s)(no1)</li>
+        <li>set your main account for “from” field, for “To” fields select user sub account derivative
+          account. (no2)</li>
+        <li>Select coin to USDT and set amount you need to transfer.</li>
+        <li>• Click confirm to transfer funds</li>
+        <img
+            src="assets/images/doc-images/Fund2.png"
+             class="img-fluid mt-4 mb-3"
+              alt="Responsive image"
+            />
+       
+
+              
+      </section>
+    
+    
+<hr class="divider">
+
+        <!-- Components
+		============================ -->
+    <section id="Bitgetidocs_components">
+      <h2>Bitget Accounts</h2>
+      <p>Account create and Api Creating</p>
+      
+    </section>
+
+<!-- BitgetAcconts Components
+		  ============================ -->
+
+		  <section id="Bitgetidocs_accordion">
+        <h2>Create Bitget New Account</h2>
+        <p>To create a new account on Bitget, first, you need to download the Bitget app or head to the
+          Bitget website on a desktop. You can access Bitget anytime and on
+          multiple platforms, including iOS and Android, browser-based websites, as well as a desktop
+          application for Mac and Windows.</p>
+          <img
+      src="assets/images/doc-images/bitget1.png"
+      class="img-fluid mt-4 mb-3"
+      alt="Responsive image"
+      />
+      <img
+      src="assets/images/doc-images/bitget2.png"
+      class="img-fluid mt-4 mb-3"
+      alt="Responsive image"
+      />
+  <p> click <a href="https://www.bitget.com/">here</a> to open Bitget</p>
+      <p>There are two ways to create a Bitget account:
+      <li>Sign up by email</li>
+      <li>Sign up by phone number</li>
+      <br>
+      
+      
+      <p>Make sure you have understood and agreed to the terms and privacy policy, and after
+        checking that the information entered is correct, click on Create Account on your desktop or
+        Continue on your mobile.</p>
+        <p>A verification page will pop up. Please drag the slider to complete the verification
+          requirements.</p>
+          <img src="assets/images/doc-images/bitget3.png"
+          class="img-fluid mt-4 mb-3"
+          alt="Responsive image"
+          /> 
+          <img src="assets/images/doc-images/bitget4.png"
+          class="img-fluid mt-4 mb-3"
+          alt="Responsive image"
+          />
+          <p>Lastly, enter the verification code sent to your email inbox.</p>
+          <li type="1">Mobile Phone Verification Code</li>
+          <div class="ml-3">
+            <li>Please try to click send verification code several times and wait.</li>
+            <li>Check whether it is blocked by third-party software on the mobile phone.</li>
+          </div>
+          <li type="1">Mail Verification Code</li>
+          <div class="ml-3">
+            <li>Check whether it is blocked by the mail spam box.</li>
+            <li>Looking for help from online customer service at <a href="mailto:support@bitget.com">support@bitget.com.</a>
+            </li>
+          </div>
+          <img src="assets/images/doc-images/bitget5.png"
+          class="img-fluid mt-4 mb-3"
+          alt="Responsive image"
+          />
+          <p>You have successfully registered an account on Bitget.</p>
+      </section>
+      
+  <hr class="divider">
+  
+  <!-- How to Create API Key on Bitget
+  ============================ -->
+  <section id="Bitgetidocs_tabs">
+        <h2>How to Create API Key on Bitget</h2>
+        <p>Click on the link above to enter your account's settings page. Perform a login if prompted.
+          Alternatively, you can click the human icon on the top right corner of your trading page.</p>
+          <img src="assets/images/doc-images/bitgetacc1.png"
+          class="img-fluid mt-4 mb-3"
+          alt="Responsive image"
+          />
+          <p>Click on the create API,</p>
+          <img src="assets/images/doc-images/bitgetacc2.png"
+          class="img-fluid mt-4 mb-3"
+          alt="Responsive image"
+          />
+          <br><br><br>
+
+        <p>Enter Notes- API passphrase- permission settings- Link IP address - email verification codeSMS verification code- Google verification code</p>
+        <img src="assets/images/doc-images/bitgetacc3.png"
+        class="img-fluid mt-4 mb-3"
+        alt="Responsive image"
+        />
+        <img src="assets/images/doc-images/bitgetacc4.png"
+        class="img-fluid mt-4 mb-3"
+        alt="Responsive image"
+        />
+        <br>
+        <h4>API Creation Completed.
+        </h4>
+
+
+      </section>
+      
+  <hr class="divider">
+        
+      
+          <!-- How to Connect the Account to Karbon Platform
+		============================ -->
+		<section id="idocs_faq">
+      <h2>Connect Accounts to Karbon </h2>
+      <h4>Users can create a new account by providing the necessary information.</h4>
+      <li type="1" class="text_L">Create new account</li>
+      <img
+            src="assets\images\doc-images\create1.png"
+             class="img-fluid mt-4 mb-3"
+              alt="Responsive image"
+            />
+		
+          
+      <li type="1" class="text_L">Select Exchange</li>
+      <img
+            src="assets\images\doc-images\create2.png"
+             class="img-fluid mt-4 mb-3"
+              alt="Responsive image"
+            />
+      <li type="1" class="text_L">Enter account name, passphrase, API Key and Secret Key</li>
+      <img
+            src="assets\images\doc-images\create3.png"
+             class="img-fluid mt-4 mb-3"
+              alt="Responsive image"
+            />
+        </section>
+        
+		<hr class="divider">
+        
+        <!-- KarbonDX Dashboard 
+		============================ -->
+        <section id="DX_Dashboard">
+          <h2>KarbonDX Dashboard </h2>
+          <h4>Briew overview about account tile in karbonDX Dashboard.</h4>
+          <p class="text_L">Account balances are displayed at the top of the page</p>
+          <img
+            src="assets\images\doc-images\dashboard1.png"
+             class="img-fluid mt-4 mb-3"
+              alt="Responsive image"
+            />
+          
+            <p class="font-weight-700 text_L">Available Balance vs Wallet Balance.</p>
+              <p class="text_m">The account balance is not updated until the trade is closed. If a profit comes, it will be
+                added to the account balance. If there is a loss, it will be subtracted from the account
+                balance</p>
+                <img
+                src="assets\images\doc-images\accbalance1.png"
+                class="img-fluid mt-4 mb-3"
+                 alt="Responsive image"
+                />
+          <p class="text_m" >The available balance is updated when opening the trade. Trade is opened by taking the
+            available balance. If the existing available balance is lesser value, the trade cannot be
+            opened</p>
+		 
+        </section>
+
+        
+		<hr class="divider">
+
+          	<!-- Opened trade data 
+		============================ -->
+
+    <section id="DX_Dashboard_open_trades">
+      <H4>Opened trade is displayed on the Dashboard and All trades.</H4>
+      <p>The trades added manually from the Karbon will start tracking once it open and the platform
+        will start tracking once it Added from the Karbon side.</p>
+        <img
+                src="assets\images\doc-images\opentrades.png"
+                class="img-fluid mt-4 mb-3"
+                 alt="Responsive image"
+                />
+
+        <p class="text_m text_color">If any of the following errors appear in the log mentioned below, tracking will be disabled.</p>
+
+        <ul>
+          <li>unified account is forbidden</li>
+          <li>Adjust will trigger liq</li>
+          <li>Permission denied</li>
+          <li>api_key expire</li>
+          <li>AB not enough</li>
+          <li>invalid api_key</li>
+          <li>unmatched ip</li>
+          <li>cannot set leverage</li>
+          <li>CannotAffordOrderCost</li>
+          <li>position idx not match position mode</li>
+          <li>Insufficient position</li>
+          <li>API key is invalid</li>
+          <li>Invalid ACCESS_KEY</li>
+          <li>The order size is greater than the max open size</li>
+          <li>Unable To Update The Leverage Factor Of This Position, There Is Not Enough Margin!</li>
+          <li>Unmatched IP, please check your API key's bound IP addresses</li>
+          <li>current position is zero, cannot fix reduce-only order qty</li>
+          <li>Reduce-only rule not satisfied</li>
+          <li>Too Many Requests</li>
+          <li>There is currently an order, or an order is planned, and the leverage cannot be adjusted.</li>
+          <li>The product or service you are seeking to access is not available to you due to regulatory restrictions.If you believe you are a permitted customer of this product or service,please reach out to us at support@bybit.com</li>
+          <li>Exceeded the maximum settable leverage</li>
+          <li>Less Than The Minimum Amount 5 USDT</li>
+          <li>Qty not in range</li>
+          <li>The order size cannot exceed the maximum size of the positionLevel</li>
+          <li>No trade found</li>
+          <li>Any Adjustments Made Will Trigger Immediate Liquidation</li>
+          <li>The number of contracts exceeds maximum limit allowed: too large</li>
+          <li>Params Error: Buy Or Sell Leverage Is Greater Than</li>
+          <li>Fix Price Failed For</li>
+          <br>
+          <img
+                src="assets\images\doc-images\trackingdisable.png"
+                class="img-fluid mt-4 mb-3"
+                 alt="Responsive image"
+                />
+         
+        </ul>
+    
+    </section>
+
+    <hr class="divider">
+
+    <!-- Opened trades In trading platform
+    ============================  -->
+    <section id="DX_Dashboard_bybit_trades">
+      <h4>Opened trades In trading platform</h4>
+      <p>Opened trades in the trading platform are displayed in the dashboard. </p>
+        <img
+                src="assets\images\doc-images\bybittrades.png"
+                class="img-fluid mt-4 mb-3"
+                 alt="Responsive image"
+                /> 
+        <p class="text_L font-weight-700">Add & Sync</p>
+        <p>Platform trades can be added to our side, and when added, the leverage will be checked.If
+          the one on the platform is not up to date, we can sync it</p>
+          <img
+                src="assets\images\doc-images\add_sync.png"
+                class="img-fluid mt-4 mb-3"
+                 alt="Responsive image"
+                />
+    </section>
+
+    <hr class="divider">
+
+
+        <!-- Market_Widget
+    ============================  -->
+    <section id="Market_Widget">
+      <h4>Market Data</h4>
+      <p>This content originates from TradingView and serves the purpose of visualizing market data.</p>
+        <img
+                src="assets\images\doc-images\chart.png"
+                class="img-fluid mt-4 mb-3"
+                 alt="Responsive image"
+                /> 
+       <h4>Manual Trade Currency Table</h4>
+      <p>In this section, you’ll find a trading currency table that provides 1-hour, 24-hour, and 7-day chart change values, along with volume and current currency prices.</p>
+        <img
+                src="assets\images\doc-images\currancytable.png"
+                class="img-fluid mt-4 mb-3"
+                 alt="Responsive image"
+                />
+    </section>
+
+    <hr class="divider">
+
+          <!-- Tradestab
+    ============================  -->
+    <section id="Tradestab">
+      <h4>Trades Tab</h4>
+      <p>This tab contained all the data related to running trades and closed trades.</p>
+        <img
+                src="assets\images\doc-images\tradestab1.png"
+                class="img-fluid mt-4 mb-3"
+                 alt="Responsive image"
+                /> 
+       
+    </section>
+
+    <hr class="divider">
+
+
+              <!-- Logs
+    ============================  -->
+    <section id="Logtab">
+      <h4>Logs Tab</h4>
+      <p>This tab contained all the activities related to Trades</p>
+        <img
+                src="assets\images\doc-images\logs1.png"
+                class="img-fluid mt-4 mb-3"
+                 alt="Responsive image"
+                /> 
+       
+    </section>
+
+    <hr class="divider">
+
+              <!-- Notes
+    ============================  -->
+    <section id="Notes">
+      <h4>Notes Tab</h4>
+      <p>Users are able to edit the name of the money management setting and save them.</p>
+        <img
+                src="assets\images\doc-images\NotesTab.png"
+                class="img-fluid mt-4 mb-3"
+                 alt="Responsive image"
+                /> 
+       
+    </section>
+
+    <hr class="divider">
+		
+		<!-- Configuration
+		============================ -->
+        <section id="DX_Config">
+          <h2>Configuration</h2>
+          <p class="lead mb-5">Configuration of the KarbonDX platform</p>
+        </section>	
+        <section id="DX_TradeSizeSetup">
+          <h4>Trade Size setup</h4>
+          <p>Trade size setup is the amount of money that a trader is willing to risk on a trade. It is
+            important to set the trade size to a level that is comfortable for the trader and that will not
+            cause financial hardship if the trade is lost. The trade size setup is the amount of money that
+            a trader is willing to risk on a trade. It is important to set the trade size to a level that is
+            comfortable for the trader and that will not cause financial hardship if the trade is lost.</p>
+            <img
+                    src="assets\images\doc-images\Config1.png"
+                    class="img-fluid mt-4 mb-3"
+                     alt="Responsive image"
+                    />
+    
+        </section>		    
+        <hr class="divider">
+
+        <section id="Close_your_trade">
+         <ol > 
+            <li class="text_L font-weight-700">How Do You Want to Close Your Trade</li>
+          
+              <ul>
+                <li>the Default option is “Close My Trade by
+                   Profits Karbon Advanced Management</li>
+                   <li>If this is selected "Wait for Close Signal for Trading View" trade is not running according to
+                      the stages.</li>
+              </ul>
+                   <img
+                    src="assets\images\doc-images\trade1.png"
+                    class="img-fluid mt-4 mb-3"
+                     alt="Responsive image"
+                    />
+                    <p class="text_m text_color">If select this, it will not be managed by Money management, and need to check if there are
+                      no active trades also the existing trades can be liquidated
+                      </p>
+          </section>
+
+              <section id="DX_TradeOpenSize">
+                <h4>Trade Size</h4>
+                <p>In this section, the user can define the order value of the trades that open using karbon.</p>
+                <img
+                        src="assets\images\doc-images\tradesize.png"
+                        class="img-fluid mt-4 mb-3"
+                        alt="Responsive image"
+                        />
+
+              </section>
+              <br>
+              <section id="DX_MaxTrades">
+                <h4>Max No Of Trades(Long and Short) </h4>
+                <ul > 
+                  <li class="text_L font-weight-500">Long</li>
+                  <p>Maximum number of open long trades means, the user is not allowed to open the long
+                    trades more than the selected number. If the user tries to open more trades “Karbon
+                    blocked this trade due to a maximum number of running long trades” message will be
+                    displayed
+                    </p>
+                  <li class="text_L font-weight-500">Short</li>
+                  <p>Maximum number of open short trades means, the user is not allowed to open the short
+                    trades more than the selected number. If the user tries to open more trades “Karbon
+                    blocked this trade due to a maximum number of running short trades” message will be
+                    displayed</p>
+                </ul>
+
+                <img
+                        src="assets\images\doc-images\maxopentrades.png"
+                        class="img-fluid mt-4 mb-3"
+                        alt="Responsive image"
+                        />
+                </section>  
+                <br>
+                <section id="DX_Leverage">
+                  <h4>Leverage</h4>
+                  <p>Leverage is the ability to control a large position with a small amount of capital. It is a
+                    double-edged sword that can magnify both gains and losses. The leverage is the amount of
+                    money that a trader is willing to risk on a trade. It is important to set the leverage to a
+                    level that is comfortable for the trader and that will not cause financial hardship if the
+                    trade is lost.</p>
+                    <br>
+                    <h4>Leverage types</h4>
+                   <img
+                        src="assets\images\doc-images\leveragetypes.png"
+                        class="img-fluid mt-4 mb-3"
+                        alt="Responsive image"
+                        />
+
+                </section>
+        <br>
+                <section id="Minimum_Profit_Target">
+                  <h4>Minimum Profit Target</h4>
+                  <p>Minimum profit target means, the trade is closed automatically when the profit is reached.</p>
+                  <img
+                        src="assets\images\doc-images\minpro.png"
+                        class="img-fluid mt-4 mb-3"
+                        alt="Responsive image"
+                        />
+
+                </section>
+
+                <br>
+                <section id="Enable_Trade_Hedging">
+                  <h4>Enable Trade Hedging</h4>
+                  <p>In one-way mode, trade cannot be opened on both sides in the same currency. In hedge
+                    mode, trades can be opened on both sides in the same currency. If Enable Trade Hedge in
+                    settings is “Yes” the hedge trade button will be visiblet</p>
+                  <img
+                        src="assets\images\doc-images\hedgemode.png"
+                        class="img-fluid mt-4 mb-3"
+                        alt="Responsive image"
+                        />
+
+                </section>
+
+                <br>
+                <section id="Enable_Trade_Hedging">
+                  <h4>Enable Trade Hedging</h4>
+                  <p>In one-way mode, trade cannot be opened on both sides in the same currency. In hedge
+                    mode, trades can be opened on both sides in the same currency. If Enable Trade Hedge in
+                    settings is “Yes” the hedge trade button will be visiblet</p>
+                  <img
+                        src="assets\images\doc-images\hedgemode.png"
+                        class="img-fluid mt-4 mb-3"
+                        alt="Responsive image"
+                        />
+
+                </section>
+
+                <br>
+                <section id="Trading_View_Trades">
+                  <h4>Create Stages for Trading View Trades</h4>
+                  <p>When the user has selected to wait for a closing signal from Tradingview, created trades
+                    must have only one stage. It will be a type 3 (close) stage and the call at percentage & the
+                    profit at percentage will be the user's trade size setup values (Long safety take profits %,
+                    Long safety stop loss %, Short safety take profits %, short safety stop loss %). The value for
+                    that stage will always be 100%.</p>
+                  <img
+                        src="assets\images\doc-images\TWtrades.png"
+                        class="img-fluid mt-4 mb-3"
+                        alt="Responsive image"
+                        />
+
+
+                </section>
+                <br>
+                <hr class="divider">
+		
+		<!-- Advance Money Management Settings
+		============================ -->
+    <section id="MM_Config">
+      <h2>Advance Money Management Settings</h2>
+      <p class="lead mb-5">Configuration of Advance Money Management Settings In the KarbonDX platform</p>
+    </section>	
+
+    <section id="MM_modes">
+      <h4>Classic and Split Mode(With Positive)</h4>
+      <p>Users can switch between combine mode and split mood using mentioned button below in karbon config page.</p>
+      <img
+            src="assets\images\doc-images\enablebtn.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+            />
+            <ul>
+              <li>
+                Classic Mode </li>
+                <p>When the combine mode is enabled, there are no positive stages; 
+                  each negative stage has a user-defined take profit it self.Users can add stages as many as they want.</p>
+              
+              <li>
+                Split Mode(with positive)</li>
+                <p>In split mode, positive and negative stages are defined separately.
+                   Users can set positive stages as well as negative stages, many as they want.
+                  This feature is only for a selected user set. If you cannot see this. You are not in that user list.</p>
+            </ul>
+
+
+    </section>
+    <br>
+    <hr class="divider">
+
+		<!-- Close Trades
+		============================ -->
+        <section id="MM_trade_close" >
+          <p class="text_m">In the Karabon platform, there are 4 types of actions that can be triggered as per your settings</p>
+          <ul class="text_m">
+            <li>Close Trade</li>
+            <li>Change Leverage</li>
+            <li>Change lLeverage Type</li>
+            <li>Repurcherse</li>
+          </ul>
+          <hr class="divider">
+
+            <!-- Close trades action
+		============================ -->
+        <section id="MM_close_trade" >
+          <h4>Close Trades</h4>
+          <p>In this take action, users can define a profit or loss percentage and position size that need to close. 
+            If the trade PnL% hits that given value, the action will trigger immediately.
+          </p>
+          <img
+            src="assets\images\doc-images\closetrade1.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+            />
+            <p>Ex: In this stage, the trade will close 50% of the opened trade size at negative 50% PnL.</p>
+
+        </section>
+        
+		    
+        <hr class="divider">
+
+  <!-- Change levarage
+		============================ -->
+
+        <section id="MM_leverage_change" >
+          <h4>Change Leverage</h4>
+          <p>Change leverage is a feature that allows users to change the leverage of the trade. 
+            If the trade PnL% hits that given value, the action will trigger immediately.
+          </p>
+          <img
+            src="assets\images\doc-images\changeleverage.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+            />
+            <p>Ex: In this stage, the trade will change the leverage to isolated 10x at negative 50% PnL.</p>
+       
+        </section>
+        <hr class="divider">
+
+        <!-- Change levarage type
+             ============================ -->
+
+        <section id="MM_Lverage_Type_change" >
+          <h4>Change Leverage Type</h4>
+          <p>Change leverage type is a feature that allows users to change the leverage type of the trade.
+              If the trade PnL% hits that given value, the action will trigger immediately.
+          </p>
+          <img
+            src="assets\images\doc-images\changeleverageType.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+            />
+            <img
+            src="assets\images\doc-images\changeleverageType1.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+            />
+            <p>Ex: In this stage, the trade will change the leverage type to cross 10x at negative 50% PnL.</p>
+
+        </section>
+        <hr class="divider">
+
+        <!-- Repurchase
+             ============================ -->
+
+        <section id="MM_Reperchase" >
+          <h4>Repurchase</h4>
+          <p>Repurchase is a feature that allows users to repurchase the trade.
+              If the trade PnL% hits that given value, the action will trigger immediately.
+          </p>
+          <img
+            src="assets\images\doc-images\repurchase.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+            />
+          
+            <p>Ex: In this stage, the trade will repurchase 50% of the opened trade at negative 50% PnL.</p>
+
+        </section>
+        <hr class="divider">
+
+        <!-- Hedge Mode Types
+         ============================ -->
+
+         <section id="MM_Reset_Swing">
+           <h4>Reset after Swing</h4>
+           <p>In Karbon platform We can use 2 deferent methods in hedge mode.</p>
+           <ul>
+             <li>
+              Reset after Swing</li>
+               <p>In this mode, users can create a hedge trade that will be reset its stages after hit opposite side 1st stage 
+                For a example : if trade is at P4 stage and going down to hit N.1. after hit N.1 positive stages reset and it became P.entry stage.
+                If negative stage is repurchase, that quantity will be dropped with small profit at latest entry price. For that It create TP order in Bybit
+               </p>
+
+             <li>
+               No reset after Swing</li>
+           
+           <p>In this mode, users can create a hedge trade that will not be reset its stages after hit opposite side 1st stage 
+                For a example : if trade is at P4 stage and going down to hit N.1. after hit N.1 positive stage remains P.4 stage.
+               </p></ul>
+
+               <img
+            src="assets\images\doc-images\Swing.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+            />
+
+         </section>
+
+         <hr class="divider">
+
+
+         <!-- End cycle at % gain
+         ============================ -->
+         <section id="MM_Wallet_Cycles_at">
+           <h4>End cycle at % gain</h4>
+           <p>In this scenario, after opening the latest trade in hedge mode, we record the latest wallet balance,
+             and the user can define a stage to execute this process by using MM setting stages (check box). 
+             The user can enter a % value using the dropdown menu, and we check after the selected stage hits; 
+             the profit of that hedge trade at the beginning, if the profit is => wallet_balance * selected_percentage, 
+             both trades will close and reopen until the cycle count is finished. 0% means this feature is inactive at the 
+             time. 
+            </p>
+          <img
+            src="assets\images\doc-images\endCycle.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+            />
+         </section>
+
+         <hr class="divider">
+
+         <!-- Hedge trade PnL cycle count 
+         ============================ -->
+         <section id="MM_PnL_Cycle">
+           <h4>Hedge trade PnL cycle count </h4>
+           <p>The user can define the cycle count by this setting; that means if a hedge trade is closed with a 
+            profit (after user-defined stage using checkBox), it triggers a new hedge trade pair.
+             The user can define using this setting how many times it needs to run; after the cycle count ends, 
+            no hedge trade is open for that pair. </p>
+            <img
+            src="assets\images\doc-images\cycleCount.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+            />
+         </section>
+         <hr class="divider">
+
+         <!-- Hedge trade PnL cycle count 
+         ============================ -->
+         <section id="MM_Hedge_all_close">
+           <h4>Hedge Trade All close </h4>
+           <p>This is a trade action type with a 100% close; users cannot set any stages after this stage set.
+             and also it can be set in a combine mode, split mode, or positive and negative side.
+              If the hedge trade hit this stage, both trades are closing at the moment.
+             that close, not calculate profit gain</p>
+            <img
+            src="assets\images\doc-images\AllHedgeClose.png"
+            class="img-fluid mt-4 mb-3"
+            alt="Responsive image"
+            />
+         </section>
+         <hr class="divider">
+
+         <!-- Common errors 
+         ============================ -->
+         <section id="MM_Errors">
+           <h3>Common Errors</h3>
+           <p>Some common errors that can occur while using the hedge mode in Karbon:</p>
+         </section>
+
+         <hr class="divider">
+
+         <!-- Tracking Disabled errors 
+         ============================ -->
+         <section id="MM_Errors_Tracking_Disabled">
+         <h3>Tracking Disabled errors </h3>
+            <p class="text_m text_color">If any of the following errors appear in the log mentioned below, tracking will be disabled.</p>
+
+        <ul>
+          <li>unified account is forbidden</li>
+          <li>Adjust will trigger liq</li>
+          <li>Permission denied</li>
+          <li>api_key expire</li>
+          <li>AB not enough</li>
+          <li>invalid api_key</li>
+          <li>unmatched ip</li>
+          <li>cannot set leverage</li>
+          <li>CannotAffordOrderCost</li>
+          <li>position idx not match position mode</li>
+          <li>Insufficient position</li>
+          <li>API key is invalid</li>
+          <li>Invalid ACCESS_KEY</li>
+          <li>The order size is greater than the max open size</li>
+          <li>Unable To Update The Leverage Factor Of This Position, There Is Not Enough Margin!</li>
+          <li>Unmatched IP, please check your API key's bound IP addresses</li>
+          <li>current position is zero, cannot fix reduce-only order qty</li>
+          <li>Reduce-only rule not satisfied</li>
+          <li>Too Many Requests</li>
+          <li>There is currently an order, or an order is planned, and the leverage cannot be adjusted.</li>
+          <li>The product or service you are seeking to access is not available to you due to regulatory restrictions.If you believe you are a permitted customer of this product or service,please reach out to us at support@bybit.com</li>
+          <li>Exceeded the maximum settable leverage</li>
+          <li>Less Than The Minimum Amount 5 USDT</li>
+          <li>Qty not in range</li>
+          <li>The order size cannot exceed the maximum size of the positionLevel</li>
+          <li>No trade found</li>
+          <li>Any Adjustments Made Will Trigger Immediate Liquidation</li>
+          <li>The number of contracts exceeds maximum limit allowed: too large</li>
+          <li>Params Error: Buy Or Sell Leverage Is Greater Than</li>
+          <li>Fix Price Failed For</li>
+          <br>
+         </section>
+
+         
+
+
+       
+            <!-- Tick Size Errors
+		============================ -->
+		
+        <section id="Tich_size">  
+          <h3>Tick Size Error</h3>
+          <p>
+            Assume you have $500 in your trading account, you configure the trade to open with 1% of wallet balance, 
+            the starting amount of the trade is $5, with 20x leverage, the total position size is equal to 100%, 
+            and with the current market price, you can buy 0.001 BTC for $100. In bybit, 
+            the minimum close/open quantity in BTC is 0.001 BTC (tick size).
+            that minimum close/open quantity is different for every pair. In this configuration, 
+            the stage is set as 50% close, which is equal to 0.0005 BTC. In this scenario, 
+            bybit rounded the value to 0.001 because of tick size; in that case, trade is closed 100% from the bybit side. 
+          
+          </p>
+          <p>For more Info : <a href="https://drive.google.com/file/d/1eDFaWmSN_aWa1pBNiU8sFvs7Y-i5SuT8/view?usp=sharing" target=_blank>Click Here</a>
+          </p>
+        </section>        
+        
+        <hr class="divider">
+
+        <!-- Hedging Errors
+         ============================ -->
+        <section id="Base_Price_Error">
+          <h3>Base Price Error</h3>
+          <p>
+            Positive trade close _  in positive trade close this error can log , reason for that error is the price of the  TP order that we Trying to place is lower than last price , 
+	          solution for this error is if error logs ,in that time we execute the active stage of that trade , 
+
+          </p>
+          <p>For more Info : <a href="https://drive.google.com/file/d/17m-Kv_Kx3TvLTtGS3cICnXNCjGdcGQOD/view?usp=sharing" target=_blank>Click Here</a>
+          </p>
+
+           </section>  
+        
+
+      </div>
+    </div>
+	
+  </div>
+  <!-- Content end --> 
+
+
+  
+  <!-- Footer
+  ============================ -->
+  <footer id="footer" class="section bg-dark footer-text-light">
+    <div class="container">
+      <!-- <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+        <li><a data-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.github.com/" target="_blank" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+      </ul> -->
+    </div>
+  </footer>
+  <!-- Footer end -->
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- Back To Top --> 
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+<!-- Easing --> 
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
+</body>
+</html>
