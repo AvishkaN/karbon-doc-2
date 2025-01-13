@@ -1,0 +1,219 @@
+[
+    {
+        "id": "idocs_start",
+        "text": "Introduction"
+    },
+    {
+        "id": "idocs_installation",
+        "text": "1.1.Purpose This platform facilitates effortless trading by allowing users\n            to establish personalized settings, thereby enabling trades to\n            be executed automatically and requiring minimal human\n            intervention. This platform could potentially assist in closing\n            trades automatically when they reach a profitable point. This\n            streamlined approach ensures a user-friendly experience that\n            stands out from traditional trading platforms"
+    },
+    {
+        "id": "idocs_html_structure",
+        "text": "1.2.What is Trading Trading is the buying and selling of financial instruments in\n            order to make a profit. These instruments range from a variety\n            of assets assigned a financial value that can go up or down.\n            Trading involves vigorous participation in the financial markets\n            compared to investing, which works on a buy-and-hold strategy.\n            The success of trading is dependent on the ability of a trader\n            to be profitable over a period of time. A trader is a person who gets involved in buying and selling a\n            financial asset in any financial market. He or she can buy or\n            sell either for himself/herself or on behalf of another\n            individual or institution. The main difference between an\n            investor and a trader is the duration for which he or she holds\n            on to the asset. A trader is a person who engages in the short-term purchasing\n            and selling of equity either for an institution or for\n            themselves."
+    },
+    {
+        "id": "idocs_sass",
+        "text": "1.3.What is a Candlestick A candle stick is a type of price chart used in technical\n            analysis that displays the high, low, open, and closing prices\n            of a security for a specific period. wherein each candlestick details a single day’s trading. It has\n            three essential features: The body, which represents the open-to-close range The wick, or shadow, that indicates the intra-day high and low The color, which reveals the direction of market movement – a\n              green (or white) body indicates a price increase, while a red\n              (or black) body shows a price decrease Over time, individual candlesticks form patterns that traders\n            can use to recognize major support and resistance levels. There\n            are a great many candlestick patterns that indicate an\n            opportunity within a market – some provide insight into the\n            balance between buying and selling pressures, while others\n            identify continuation patterns or market indecision.\n            CandlePatternsAll strategy calculates all candlestick pattern\n            indicators that are available on the platform. Essentially, the\n            strategy differs from the CandlePatternsMultiple strategy only\n            by calculated indicator count and by the way the list of\n            indicators gets compiled. This real body represents the price range between the open and\n            close of that day's trading. When the real body is filled in or\n            black (also red), it means the close was lower than the open. If\n            the real body is white (or green), the close was higher than the\n            open."
+    },
+    {
+        "id": "idocs_color_schemes",
+        "text": "1.4.What is a Candle Indicator This indicator paints each candle green, red, or blue depending\n            on whether the buy/sell pressure for that candle is bullish,\n            bearish, or neutral."
+    },
+    {
+        "id": "idocs_theme_customization",
+        "text": "1.5.How to Use Indicator When the directional movement index indicator shows more buying\n            pressure than selling pressure, the candle will appear lime\n            green. This indicates bullish buying pressure. When the\n            directional movement index indicator shows more selling pressure\n            than buying pressure, the candle will appear red. This indicates\n            bearish selling pressure. When the directional movement index\n            indicator shows the same amount of buy and sell pressure, the\n            candle will appear blue. This indicates neutral buy/sell\n            pressure. 8 Use the color changes to see if there is more buying\n            or selling to pinpoint reversals and understand current market\n            buying. Wait to enter or exit positions until the candles turn\n            the opposite color."
+    },
+    {
+        "id": "idocs_logo_settings",
+        "text": "1.6.How does Trading Work When trading, the user profit if the market price moves in the\n                same direction as the user’s speculation; however, if it takes\n                the opposite direction, the user incur a loss. It’s important to\n                note that trading is inherently risky and could lose more than\n                expected if don’t take the appropriate risk management steps.\n                Trading happens between two parties and often involves a dealer\n                network. No central, physical location only a virtual network of\n                participants. Timings 24/7. Contracts are Customized.\n                Counterparty risk, assets can be more volatile, and can be\n                traded on leverage, which means there’s a risk of losing more\n                than the deposit"
+    },
+    {
+        "id": "idocs_layout",
+        "text": "User Types And Sign Up Documentation about user Types and Sign Up to the Karbon"
+    },
+    {
+        "id": "idocs_header",
+        "text": "User Type description Default User Default user is created After the signing up process Admin User Responsible for implementing and maintaining security services, such\n                as adding users, building profiles, or managing general site\n                administration Lab User This is another existing user type. able to add strategies to the system Elite User Auto execution subscribe and account balance 1000USDT Pro User Not defined yet Pro + User Not defined yet"
+    },
+    {
+        "id": "idocs_navbar",
+        "text": "Sign Up To use this platform user needs to create an account by simply providing their Name, Email,\n        and password After creating an account on Karbon, users are able to connect their online exchanges with\n            their new Karbon account. Before connecting exchanges, the user needs to create an\n            account on the exchange platform. exchange platforms are bitget and bybit\n            Bybit and Bitget are online exchanges where users can trade cryptocurrencies\n            we are planing to add binance exchange near future"
+    },
+    {
+        "id": "idocs_content",
+        "text": "Home Brief introduction to Karbon UI"
+    },
+    {
+        "id": "idocs_typography",
+        "text": "Welcome Message & Links"
+    },
+    {
+        "id": "idocs_code",
+        "text": "Color Theme Changing Site theme can be changed according to the user’s desire. Blue and Green colors are\n        available."
+    },
+    {
+        "id": "idocs_components",
+        "text": "Live/Paper Accounts"
+    },
+    {
+        "id": "idocs_accordion",
+        "text": "Create ByBit New Account click here to open bybit There are two ways to create a Bybit account: Sign up by email Sign up by phone number Click Sign in on the top right corner of the Bybit homepage. Then click Sign up. You can choose to sign up by email or phone number. Fill in the required information and click Sign up. You will receive a verification code in your email or phone number. Enter the verification code to complete the sign-up process. Make sure you have understood and agreed to the terms and privacy policy, and after\n            checking that the information entered is correct, click on Create Account on your desktop or\n            Continue on your mobile."
+    },
+    {
+        "id": "idocs_tabs",
+        "text": "How To enable 2FA authentication Click your Bybit Profile icon and go to account and security page In account and security scroll down the page to advance protection. Click settings related to google two factor authentication. Check your email to verification code and enter that code to security\n            verification. downloads google authentication app and scan the QR code given in the\n              popup window and enter the authentication code in given field in the popup\n              window. Click confirm to finish the setup"
+    },
+    {
+        "id": "idocs_social_icon",
+        "text": "How to Create Sub Account on bybit Go to user setting by clicking profile icon in bybit. Click subaccounts tab Click Create subaccount button. Click standard subaccount. Enter any name without space and select account type to standard Click confirm to finish the setup."
+    },
+    {
+        "id": "idocs_helper_classes",
+        "text": "Create Your API Key on Bybit Subaccount enter your account's settings page. Perform a login if prompted. Alternatively, you\n              can click the human icon on the top right corner of your trading page, go to “Subaccounts”\n              then click “Management “in created sub account Click on 'Create New Key' located on the right side of the 'API Management' page Click system-generated API keys. The following pop-out window will appear. Please configure your API key according\n              to your trading needs. Enter 2FA code and confirm. You have successfully created your API key! “Users can add the IP address that was provided by the Karbon team to the API creation process to\n              prevent other unauthorized IP addresses.”"
+    },
+    {
+        "id": "idocs_Funding",
+        "text": "How to Add funds to sub account Go to assets using navigation bar. In asset overview Click Transfer button After clicking transfer you can see a popup window named transfer. Select across sub account(s)(no1) set your main account for “from” field, for “To” fields select user sub account derivative\n          account. (no2) Select coin to USDT and set amount you need to transfer. • Click confirm to transfer funds"
+    },
+    {
+        "id": "Bitgetidocs_components",
+        "text": "Bitget Accounts Account create and Api Creating"
+    },
+    {
+        "id": "Bitgetidocs_accordion",
+        "text": "Create Bitget New Account To create a new account on Bitget, first, you need to download the Bitget app or head to the\n          Bitget website on a desktop. You can access Bitget anytime and on\n          multiple platforms, including iOS and Android, browser-based websites, as well as a desktop\n          application for Mac and Windows. click here to open Bitget There are two ways to create a Bitget account: Sign up by email Sign up by phone number Make sure you have understood and agreed to the terms and privacy policy, and after\n        checking that the information entered is correct, click on Create Account on your desktop or\n        Continue on your mobile. A verification page will pop up. Please drag the slider to complete the verification\n          requirements. Lastly, enter the verification code sent to your email inbox. Mobile Phone Verification Code Please try to click send verification code several times and wait. Check whether it is blocked by third-party software on the mobile phone. Mail Verification Code Check whether it is blocked by the mail spam box. Looking for help from online customer service at support@bitget.com. You have successfully registered an account on Bitget."
+    },
+    {
+        "id": "Bitgetidocs_tabs",
+        "text": "How to Create API Key on Bitget Click on the link above to enter your account's settings page. Perform a login if prompted.\n          Alternatively, you can click the human icon on the top right corner of your trading page. Click on the create API, Enter Notes- API passphrase- permission settings- Link IP address - email verification codeSMS verification code- Google verification code API Creation Completed."
+    },
+    {
+        "id": "idocs_faq",
+        "text": "Connect Accounts to Karbon Users can create a new account by providing the necessary information. Create new account Select Exchange Enter account name, passphrase, API Key and Secret Key"
+    },
+    {
+        "id": "DX_Dashboard",
+        "text": "KarbonDX Dashboard Briew overview about account tile in karbonDX Dashboard. Account balances are displayed at the top of the page Available Balance vs Wallet Balance. The account balance is not updated until the trade is closed. If a profit comes, it will be\n                added to the account balance. If there is a loss, it will be subtracted from the account\n                balance The available balance is updated when opening the trade. Trade is opened by taking the\n            available balance. If the existing available balance is lesser value, the trade cannot be\n            opened"
+    },
+    {
+        "id": "DX_Dashboard_open_trades",
+        "text": "Opened trade is displayed on the Dashboard and All trades. The trades added manually from the Karbon will start tracking once it open and the platform\n        will start tracking once it Added from the Karbon side. If any of the following errors appear in the log mentioned below, tracking will be disabled. unified account is forbidden Adjust will trigger liq Permission denied api_key expire AB not enough invalid api_key unmatched ip cannot set leverage CannotAffordOrderCost position idx not match position mode Insufficient position API key is invalid Invalid ACCESS_KEY The order size is greater than the max open size Unable To Update The Leverage Factor Of This Position, There Is Not Enough Margin! Unmatched IP, please check your API key's bound IP addresses current position is zero, cannot fix reduce-only order qty Reduce-only rule not satisfied Too Many Requests There is currently an order, or an order is planned, and the leverage cannot be adjusted. The product or service you are seeking to access is not available to you due to regulatory restrictions.If you believe you are a permitted customer of this product or service,please reach out to us at support@bybit.com Exceeded the maximum settable leverage Less Than The Minimum Amount 5 USDT Qty not in range The order size cannot exceed the maximum size of the positionLevel No trade found Any Adjustments Made Will Trigger Immediate Liquidation The number of contracts exceeds maximum limit allowed: too large Params Error: Buy Or Sell Leverage Is Greater Than Fix Price Failed For"
+    },
+    {
+        "id": "DX_Dashboard_bybit_trades",
+        "text": "Opened trades In trading platform Opened trades in the trading platform are displayed in the dashboard. Add & Sync Platform trades can be added to our side, and when added, the leverage will be checked.If\n          the one on the platform is not up to date, we can sync it"
+    },
+    {
+        "id": "Market_Widget",
+        "text": "Market Data This content originates from TradingView and serves the purpose of visualizing market data. Manual Trade Currency Table In this section, you’ll find a trading currency table that provides 1-hour, 24-hour, and 7-day chart change values, along with volume and current currency prices."
+    },
+    {
+        "id": "Tradestab",
+        "text": "Trades Tab This tab contained all the data related to running trades and closed trades."
+    },
+    {
+        "id": "Logtab",
+        "text": "Logs Tab This tab contained all the activities related to Trades"
+    },
+    {
+        "id": "Notes",
+        "text": "Notes Tab Users are able to edit the name of the money management setting and save them."
+    },
+    {
+        "id": "DX_Config",
+        "text": "Configuration Configuration of the KarbonDX platform"
+    },
+    {
+        "id": "DX_TradeSizeSetup",
+        "text": "Trade Size setup Trade size setup is the amount of money that a trader is willing to risk on a trade. It is\n            important to set the trade size to a level that is comfortable for the trader and that will not\n            cause financial hardship if the trade is lost. The trade size setup is the amount of money that\n            a trader is willing to risk on a trade. It is important to set the trade size to a level that is\n            comfortable for the trader and that will not cause financial hardship if the trade is lost."
+    },
+    {
+        "id": "Close_your_trade",
+        "text": "How Do You Want to Close Your Trade the Default option is “Close My Trade by\n                   Profits Karbon Advanced Management If this is selected \"Wait for Close Signal for Trading View\" trade is not running according to\n                      the stages. If select this, it will not be managed by Money management, and need to check if there are\n                      no active trades also the existing trades can be liquidated"
+    },
+    {
+        "id": "DX_TradeOpenSize",
+        "text": "Trade Size In this section, the user can define the order value of the trades that open using karbon."
+    },
+    {
+        "id": "DX_MaxTrades",
+        "text": "Max No Of Trades(Long and Short) Long Maximum number of open long trades means, the user is not allowed to open the long\n                    trades more than the selected number. If the user tries to open more trades “Karbon\n                    blocked this trade due to a maximum number of running long trades” message will be\n                    displayed Short Maximum number of open short trades means, the user is not allowed to open the short\n                    trades more than the selected number. If the user tries to open more trades “Karbon\n                    blocked this trade due to a maximum number of running short trades” message will be\n                    displayed"
+    },
+    {
+        "id": "DX_Leverage",
+        "text": "Leverage Leverage is the ability to control a large position with a small amount of capital. It is a\n                    double-edged sword that can magnify both gains and losses. The leverage is the amount of\n                    money that a trader is willing to risk on a trade. It is important to set the leverage to a\n                    level that is comfortable for the trader and that will not cause financial hardship if the\n                    trade is lost. Leverage types"
+    },
+    {
+        "id": "Minimum_Profit_Target",
+        "text": "Minimum Profit Target Minimum profit target means, the trade is closed automatically when the profit is reached."
+    },
+    {
+        "id": "Enable_Trade_Hedging",
+        "text": "Enable Trade Hedging In one-way mode, trade cannot be opened on both sides in the same currency. In hedge\n                    mode, trades can be opened on both sides in the same currency. If Enable Trade Hedge in\n                    settings is “Yes” the hedge trade button will be visiblet"
+    },
+    
+    {
+        "id": "Trading_View_Trades",
+        "text": "Create Stages for Trading View Trades When the user has selected to wait for a closing signal from Tradingview, created trades\n                    must have only one stage. It will be a type 3 (close) stage and the call at percentage & the\n                    profit at percentage will be the user's trade size setup values (Long safety take profits %,\n                    Long safety stop loss %, Short safety take profits %, short safety stop loss %). The value for\n                    that stage will always be 100%."
+    },
+    {
+        "id": "MM_Config",
+        "text": "Advance Money Management Settings Configuration of Advance Money Management Settings In the KarbonDX platform"
+    },
+    {
+        "id": "MM_modes",
+        "text": "Classic and Split Mode(With Positive) Users can switch between combine mode and split mood using mentioned button below in karbon config page. Classic Mode When the combine mode is enabled, there are no positive stages; \n                  each negative stage has a user-defined take profit it self.Users can add stages as many as they want. Split Mode(with positive) In split mode, positive and negative stages are defined separately.\n                   Users can set positive stages as well as negative stages, many as they want.\n                  This feature is only for a selected user set. If you cannot see this. You are not in that user list."
+    },
+    {
+        "id": "MM_trade_close",
+        "text": "In the Karabon platform, there are 4 types of actions that can be triggered as per your settings Close Trade Change Leverage Change lLeverage Type Repurcherse Close Trades In this take action, users can define a profit or loss percentage and position size that need to close. \n            If the trade PnL% hits that given value, the action will trigger immediately. Ex: In this stage, the trade will close 50% of the opened trade size at negative 50% PnL. Change Leverage Change leverage is a feature that allows users to change the leverage of the trade. \n            If the trade PnL% hits that given value, the action will trigger immediately. Ex: In this stage, the trade will change the leverage to isolated 10x at negative 50% PnL. Change Leverage Type Change leverage type is a feature that allows users to change the leverage type of the trade.\n              If the trade PnL% hits that given value, the action will trigger immediately. Ex: In this stage, the trade will change the leverage type to cross 10x at negative 50% PnL. Repurchase Repurchase is a feature that allows users to repurchase the trade.\n              If the trade PnL% hits that given value, the action will trigger immediately. Ex: In this stage, the trade will repurchase 50% of the opened trade at negative 50% PnL. Reset after Swing In Karbon platform We can use 2 deferent methods in hedge mode. Reset after Swing In this mode, users can create a hedge trade that will be reset its stages after hit opposite side 1st stage \n                For a example : if trade is at P4 stage and going down to hit N.1. after hit N.1 positive stages reset and it became P.entry stage.\n                If negative stage is repurchase, that quantity will be dropped with small profit at latest entry price. For that It create TP order in Bybit No reset after Swing In this mode, users can create a hedge trade that will not be reset its stages after hit opposite side 1st stage \n                For a example : if trade is at P4 stage and going down to hit N.1. after hit N.1 positive stage remains P.4 stage. End cycle at % gain In this scenario, after opening the latest trade in hedge mode, we record the latest wallet balance,\n             and the user can define a stage to execute this process by using MM setting stages (check box). \n             The user can enter a % value using the dropdown menu, and we check after the selected stage hits; \n             the profit of that hedge trade at the beginning, if the profit is => wallet_balance * selected_percentage, \n             both trades will close and reopen until the cycle count is finished. 0% means this feature is inactive at the \n             time. Hedge trade PnL cycle count The user can define the cycle count by this setting; that means if a hedge trade is closed with a \n            profit (after user-defined stage using checkBox), it triggers a new hedge trade pair.\n             The user can define using this setting how many times it needs to run; after the cycle count ends, \n            no hedge trade is open for that pair. Hedge Trade All close This is a trade action type with a 100% close; users cannot set any stages after this stage set.\n             and also it can be set in a combine mode, split mode, or positive and negative side.\n              If the hedge trade hit this stage, both trades are closing at the moment.\n             that close, not calculate profit gain Common Errors Some common errors that can occur while using the hedge mode in Karbon: Tracking Disabled errors If any of the following errors appear in the log mentioned below, tracking will be disabled. unified account is forbidden Adjust will trigger liq Permission denied api_key expire AB not enough invalid api_key unmatched ip cannot set leverage CannotAffordOrderCost position idx not match position mode Insufficient position API key is invalid Invalid ACCESS_KEY The order size is greater than the max open size Unable To Update The Leverage Factor Of This Position, There Is Not Enough Margin! Unmatched IP, please check your API key's bound IP addresses current position is zero, cannot fix reduce-only order qty Reduce-only rule not satisfied Too Many Requests There is currently an order, or an order is planned, and the leverage cannot be adjusted. The product or service you are seeking to access is not available to you due to regulatory restrictions.If you believe you are a permitted customer of this product or service,please reach out to us at support@bybit.com Exceeded the maximum settable leverage Less Than The Minimum Amount 5 USDT Qty not in range The order size cannot exceed the maximum size of the positionLevel No trade found Any Adjustments Made Will Trigger Immediate Liquidation The number of contracts exceeds maximum limit allowed: too large Params Error: Buy Or Sell Leverage Is Greater Than Fix Price Failed For Tick Size Error Assume you have $500 in your trading account, you configure the trade to open with 1% of wallet balance, \n            the starting amount of the trade is $5, with 20x leverage, the total position size is equal to 100%, \n            and with the current market price, you can buy 0.001 BTC for $100. In bybit, \n            the minimum close/open quantity in BTC is 0.001 BTC (tick size).\n            that minimum close/open quantity is different for every pair. In this configuration, \n            the stage is set as 50% close, which is equal to 0.0005 BTC. In this scenario, \n            bybit rounded the value to 0.001 because of tick size; in that case, trade is closed 100% from the bybit side. For more Info : Click Here Base Price Error Positive trade close _  in positive trade close this error can log , reason for that error is the price of the  TP order that we Trying to place is lower than last price , \n\t          solution for this error is if error logs ,in that time we execute the active stage of that trade , For more Info : Click Here"
+    },
+    {
+        "id": "MM_close_trade",
+        "text": "Close Trades In this take action, users can define a profit or loss percentage and position size that need to close. \n            If the trade PnL% hits that given value, the action will trigger immediately. Ex: In this stage, the trade will close 50% of the opened trade size at negative 50% PnL."
+    },
+    {
+        "id": "MM_leverage_change",
+        "text": "Change Leverage Change leverage is a feature that allows users to change the leverage of the trade. \n            If the trade PnL% hits that given value, the action will trigger immediately. Ex: In this stage, the trade will change the leverage to isolated 10x at negative 50% PnL."
+    },
+    {
+        "id": "MM_Lverage_Type_change",
+        "text": "Change Leverage Type Change leverage type is a feature that allows users to change the leverage type of the trade.\n              If the trade PnL% hits that given value, the action will trigger immediately. Ex: In this stage, the trade will change the leverage type to cross 10x at negative 50% PnL."
+    },
+    {
+        "id": "MM_Reperchase",
+        "text": "Repurchase Repurchase is a feature that allows users to repurchase the trade.\n              If the trade PnL% hits that given value, the action will trigger immediately. Ex: In this stage, the trade will repurchase 50% of the opened trade at negative 50% PnL."
+    },
+    {
+        "id": "MM_Reset_Swing",
+        "text": "Reset after Swing In Karbon platform We can use 2 deferent methods in hedge mode. Reset after Swing In this mode, users can create a hedge trade that will be reset its stages after hit opposite side 1st stage \n                For a example : if trade is at P4 stage and going down to hit N.1. after hit N.1 positive stages reset and it became P.entry stage.\n                If negative stage is repurchase, that quantity will be dropped with small profit at latest entry price. For that It create TP order in Bybit No reset after Swing In this mode, users can create a hedge trade that will not be reset its stages after hit opposite side 1st stage \n                For a example : if trade is at P4 stage and going down to hit N.1. after hit N.1 positive stage remains P.4 stage."
+    },
+    {
+        "id": "MM_Wallet_Cycles_at",
+        "text": "End cycle at % gain In this scenario, after opening the latest trade in hedge mode, we record the latest wallet balance,\n             and the user can define a stage to execute this process by using MM setting stages (check box). \n             The user can enter a % value using the dropdown menu, and we check after the selected stage hits; \n             the profit of that hedge trade at the beginning, if the profit is => wallet_balance * selected_percentage, \n             both trades will close and reopen until the cycle count is finished. 0% means this feature is inactive at the \n             time."
+    },
+    {
+        "id": "MM_PnL_Cycle",
+        "text": "Hedge trade PnL cycle count The user can define the cycle count by this setting; that means if a hedge trade is closed with a \n            profit (after user-defined stage using checkBox), it triggers a new hedge trade pair.\n             The user can define using this setting how many times it needs to run; after the cycle count ends, \n            no hedge trade is open for that pair."
+    },
+    {
+        "id": "MM_Hedge_all_close",
+        "text": "Hedge Trade All close This is a trade action type with a 100% close; users cannot set any stages after this stage set.\n             and also it can be set in a combine mode, split mode, or positive and negative side.\n              If the hedge trade hit this stage, both trades are closing at the moment.\n             that close, not calculate profit gain"
+    },
+    {
+        "id": "MM_Errors",
+        "text": "Common Errors Some common errors that can occur while using the hedge mode in Karbon:"
+    },
+    {
+        "id": "MM_Errors_Tracking_Disabled",
+        "text": "Tracking Disabled errors If any of the following errors appear in the log mentioned below, tracking will be disabled. unified account is forbidden Adjust will trigger liq Permission denied api_key expire AB not enough invalid api_key unmatched ip cannot set leverage CannotAffordOrderCost position idx not match position mode Insufficient position API key is invalid Invalid ACCESS_KEY The order size is greater than the max open size Unable To Update The Leverage Factor Of This Position, There Is Not Enough Margin! Unmatched IP, please check your API key's bound IP addresses current position is zero, cannot fix reduce-only order qty Reduce-only rule not satisfied Too Many Requests There is currently an order, or an order is planned, and the leverage cannot be adjusted. The product or service you are seeking to access is not available to you due to regulatory restrictions.If you believe you are a permitted customer of this product or service,please reach out to us at support@bybit.com Exceeded the maximum settable leverage Less Than The Minimum Amount 5 USDT Qty not in range The order size cannot exceed the maximum size of the positionLevel No trade found Any Adjustments Made Will Trigger Immediate Liquidation The number of contracts exceeds maximum limit allowed: too large Params Error: Buy Or Sell Leverage Is Greater Than Fix Price Failed For"
+    },
+    {
+        "id": "Tich_size",
+        "text": "Tick Size Error Assume you have $500 in your trading account, you configure the trade to open with 1% of wallet balance, \n            the starting amount of the trade is $5, with 20x leverage, the total position size is equal to 100%, \n            and with the current market price, you can buy 0.001 BTC for $100. In bybit, \n            the minimum close/open quantity in BTC is 0.001 BTC (tick size).\n            that minimum close/open quantity is different for every pair. In this configuration, \n            the stage is set as 50% close, which is equal to 0.0005 BTC. In this scenario, \n            bybit rounded the value to 0.001 because of tick size; in that case, trade is closed 100% from the bybit side. For more Info : Click Here"
+    },
+    {
+        "id": "Base_Price_Error",
+        "text": "Base Price Error Positive trade close _  in positive trade close this error can log , reason for that error is the price of the  TP order that we Trying to place is lower than last price , \n\t          solution for this error is if error logs ,in that time we execute the active stage of that trade , For more Info : Click Here"
+    }
+]
